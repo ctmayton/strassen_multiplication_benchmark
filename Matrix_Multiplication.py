@@ -1,4 +1,7 @@
 import math
+import random
+
+
 #This file contains different matrix multiplication algorithms
 def standard_multiplication(a, b):
     #input: two matrices
@@ -115,3 +118,13 @@ def strassen_multiply(A, B):
 
     # Unpad result
     return unpad_matrix(C_padded, rowsA, colsB)
+
+def random_matrix(n, m, value):
+    """Generate random matrix of size n x m."""
+    if value == 1:
+        a = [[1 for j in range(m)] for i in range(n)]
+    elif value == 2:
+        a = [[2 for j in range(m)] for i in range(n)]
+    else:
+        a = [[random.randint(1, 10) for j in range(m)] for i in range(n)]
+    return a
