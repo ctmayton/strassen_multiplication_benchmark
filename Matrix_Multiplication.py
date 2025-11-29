@@ -125,6 +125,8 @@ def random_matrix(n, m, value):
         a = [[1 for j in range(m)] for i in range(n)]
     elif value == 2:
         a = [[2 for j in range(m)] for i in range(n)]
+    elif value == 4:
+        a = [[random.randint(1000, 9999) for j in range(m)] for i in range(n)]
     else:
         a = [[random.randint(1, 10) for j in range(m)] for i in range(n)]
     return a
