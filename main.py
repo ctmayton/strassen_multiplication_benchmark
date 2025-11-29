@@ -51,5 +51,8 @@ def main():
             print(row)
     print("Time: " + str(duration_strassen))
 
+    temp = input("\nPress any key to exit the program: ")
+
 if __name__ == '__main__':
     main()
+
