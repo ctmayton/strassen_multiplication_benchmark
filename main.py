@@ -15,7 +15,8 @@ def main():
     print("\n1 = All values will be 1")
     print("\n2 = All values will be 2")
     print("\n3 = All values will be between 1 and 10")
-    value = int(input("\n1/2/3: "))
+    print("\n4 = All values will be between 1000 and 9999")
+    value = int(input("\n1/2/3/4: "))
 
     matrix1 = random_matrix(A, B, value)
     matrix2 = random_matrix(B, C, value)
