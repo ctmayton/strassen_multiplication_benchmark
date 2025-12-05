@@ -1,1 +1,3 @@
+Jonah Robbins, Chase Mayton, Noah Davis, Corbin Johnson
+
 This repository contains a python program that can be used to compare the efficiency of standard matrix multiplication with Strassen algorithm. The included .exe file only runs on windows due to being built using PyInstaller.
